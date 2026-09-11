@@ -1,0 +1,13 @@
+[
+  {"event_id":"evt-001","timestamp":"2026-09-10T09:00:00Z","host":"WS-101","channel":"Security","event_code":4625,"user":"alex","source_ip":"198.51.100.24"},
+  {"event_id":"evt-002","timestamp":"2026-09-10T09:00:15Z","host":"WS-101","channel":"Security","event_code":4625,"user":"alex","source_ip":"198.51.100.24"},
+  {"event_id":"evt-003","timestamp":"2026-09-10T09:00:30Z","host":"WS-101","channel":"Security","event_code":4625,"user":"alex","source_ip":"198.51.100.24"},
+  {"event_id":"evt-004","timestamp":"2026-09-10T09:00:45Z","host":"WS-101","channel":"Security","event_code":4625,"user":"alex","source_ip":"198.51.100.24"},
+  {"event_id":"evt-005","timestamp":"2026-09-10T09:01:00Z","host":"WS-101","channel":"Security","event_code":4625,"user":"alex","source_ip":"198.51.100.24"},
+  {"event_id":"evt-006","timestamp":"2026-09-10T09:15:00Z","host":"DC-01","channel":"Security","event_code":4728,"user":"admin.ops","target_user":"svc-reporting","group_name":"Domain Admins"},
+  {"event_id":"evt-007","timestamp":"2026-09-10T09:17:00Z","host":"DC-01","channel":"Security","event_code":1102,"user":"admin.ops","details":"Synthetic audit log clear event"},
+  {"event_id":"evt-008","timestamp":"2026-09-10T09:20:00Z","host":"SRV-22","channel":"System","event_code":7045,"user":"SYSTEM","service_name":"UpdaterSvc","details":"ImagePath=C:\\Users\\Public\\AppData\\Temp\\updater.exe"},
+  {"event_id":"evt-009","timestamp":"2026-09-10T09:25:00Z","host":"SRV-22","channel":"Security","event_code":4698,"user":"ops.user","task_name":"Synthetic Maintenance Task","details":"Lab-only scheduled task creation event"},
+  {"event_id":"evt-010","timestamp":"2026-09-10T09:30:00Z","host":"WS-205","channel":"Microsoft-Windows-PowerShell/Operational","event_code":4104,"user":"analyst","process_name":"powershell.exe","command_line":"powershell.exe -EncodedCommand SYNTHETIC_BASE64_PLACEHOLDER","details":"Safe synthetic telemetry; not executable content"},
+  {"event_id":"evt-011","timestamp":"2026-09-10T09:35:00Z","host":"WS-205","channel":"Security","event_code":4688,"user":"analyst","process_name":"notepad.exe","command_line":"notepad.exe C:\\Temp\\notes.txt"}
+]
